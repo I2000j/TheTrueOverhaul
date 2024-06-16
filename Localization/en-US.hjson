@@ -1,0 +1,493 @@
+Mods: {
+	TrueOverhaul: {
+		Bestiary.GirlScout: She is ready to help you, no matter what the cost.
+
+		TownNPCMood: {
+			GirlScout: {
+				Content: Hi, I'm doing great!
+				NoHome: I wouldn't mind a house. I hope you can find a suitable one for me.
+				LoveSpace: Peace and quiet means I get to live it up!
+				FarFromHome: I can't see my house, I'm lost..?
+				DislikeCrowded: The more the merrier and all, but I'm starting to feel a lil' overcrowded.
+				HateCrowded: I can't kick my legs out and relax without hitting someone...
+				LikeBiome: It is way too cold here, but I want to get used to such conditions!
+				LoveBiome: This place reminds me of the old days, when I was very young, and I used to camp here.
+				DislikeBiome: There are silly rainbows and unicorns, it's too fabulous!
+				HateBiome: I wanna live elsewhere! This is awful!
+				LoveNPC: "{NPCName} is here! I can discuss everything with him!"
+				LikeNPC: "{NPCName} understands the importance of hard work. It is good having her around."
+				DislikeNPC: I don't think I could focus when {NPCName} is around. I hear to many jokes about me!
+				HateNPC: Just between us. {NPCName} is too greedy! Can you take him back to where he was?
+				LikeNPC_Princess: I gotta visit {NPCName} ever again, she offered to make my homemade bandages prettier!
+			}
+		}
+
+		NPCs: {
+			GirlScout: {
+				DisplayName: Girl Scout
+
+				TownNPCMood: {
+					Content: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.Content}"
+					NoHome: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.NoHome}"
+					FarFromHome: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.FarFromHome}"
+					LoveSpace: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.LoveSpace}"
+					DislikeCrowded: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.DislikeCrowded}"
+					HateCrowded: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.HateCrowded}"
+					LoveBiome: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.LoveBiome}"
+					LikeBiome: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.LikeBiome}"
+					DislikeBiome: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.DislikeBiome}"
+					LoveNPC: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.LoveNPC}"
+					LikeNPC: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.LikeNPC}"
+					DislikeNPC: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.DislikeNPC}"
+					HateNPC: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.HateNPC}"
+					LikeNPC_Princess: "{$Mods.TrueOverhaul.TownNPCMood.GirlScout.LikeNPC_Princess}"
+					Princess_LovesNPC: I can't wait to show {NPCName} my surprise!
+				}
+			}
+
+			SpiderCritterNPC.DisplayName: Spider
+		}
+
+		Buffs: {
+			Bandaged: {
+				DisplayName: Bandaged
+				Description: You are completely bandaged up
+			}
+
+			Depressed: {
+				DisplayName: Depression
+				Description: Dying sunflowers make you sad
+			}
+
+			IMTIRED: {
+				DisplayName: I'm tired!
+				Description: I'm sorry, I can't unwrap you from the bandages!
+			}
+		}
+
+		Items: {
+			PWC: {
+				DisplayName: Potion With Corruption
+				Tooltip: Favorite this item to disable natural eaters migration
+			}
+
+			PWC2: {
+				DisplayName: Potion With Crimson
+				Tooltip: Favorite this item to disable natural monsters migration
+			}
+
+			GSS: {
+				DisplayName: GSS
+				Tooltip: Brings you home, but gives you a 30-second potion sickness
+			}
+
+			SugaredCookie: {
+				DisplayName: Sweetened cookie
+				Tooltip: Everyone's favorite yummy
+			}
+
+			OldBandage: {
+				DisplayName: Old Bandage
+				Tooltip: Will help in an emergency situation
+			}
+
+			HealBandage: {
+				DisplayName: Bandage
+				Tooltip: Will help in an emergency situation
+			}
+
+			Forest: {
+				DisplayName: Forest exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Desert: {
+				DisplayName: Desert exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Snow: {
+				DisplayName: Snow exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Jungle: {
+				DisplayName: Jungle exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Ocean: {
+				DisplayName: Ocean exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Sky: {
+				DisplayName: Sky exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Underground: {
+				DisplayName: Underground exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Caverns: {
+				DisplayName: Caverns exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			TheCrimson: {
+				DisplayName: Crimson exploration
+				Tooltip:
+					'''
+					You [c/f8fc03:sponsored] a Girl Scout exploration
+					Allows you to start the research
+					'''
+			}
+
+			Martyr: {
+				DisplayName: The Body of the Sufferer
+				Tooltip: "[c/8a0010:You might regret it a lot]"
+			}
+
+			ScoutPhoneDummy: {
+				DisplayName: Pink Phone
+				Tooltip: An interesting development of a girl scout
+			}
+
+			ScoutPhoneOff: {
+				DisplayName: Pink Phone (Off)
+				Tooltip:
+					'''
+					Left-click to inspect
+					Right-click to enable
+					'''
+			}
+
+			ScoutPhoneOn: {
+				DisplayName: Pink Phone (On)
+				Tooltip:
+					'''
+					Displays the time
+					Right-click to disable
+					'''
+			}
+
+			MEHSouls: {
+				DisplayName: A set of mechanical souls
+				Tooltip: ""
+			}
+
+			SoulOfBalance: {
+				DisplayName: Soul Of Balance
+				Tooltip: Light and Darkness are now in balance
+			}
+
+			UniverseFragment: {
+				DisplayName: Universe Fragment
+				Tooltip: Contains fragments of all pillars
+			}
+
+			UPK1: {
+				DisplayName: Upgrade Kit #1
+				Tooltip: ""
+			}
+
+			UPK2: {
+				DisplayName: Upgrade Kit #2
+				Tooltip: ""
+			}
+
+			UPK3: {
+				DisplayName: Upgrade Kit #3
+				Tooltip: ""
+			}
+
+			UPK4: {
+				DisplayName: Upgrade Kit #4
+				Tooltip: ""
+			}
+
+			UPK5: {
+				DisplayName: Upgrade Kit #5
+				Tooltip: ""
+			}
+
+			UPK6: {
+				DisplayName: Upgrade Kit #6
+				Tooltip: ""
+			}
+
+			RTable: {
+				DisplayName: Table for Reconstruction
+				Tooltip: Perhaps it's worth making something new out of something useless
+			}
+
+			ForestS: {
+				DisplayName: The Soul of the Forest
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Increases many characteristics
+					'''
+			}
+
+			DesertS: {
+				DisplayName: The Soul of the Desert
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Increases many characteristics and gives immunity to a sandstorm
+					'''
+			}
+
+			JungleS: {
+				DisplayName: The Soul of the Jungle
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Increases regeneration and gives immunity to poisoning
+					'''
+			}
+
+			SnowS: {
+				DisplayName: The Soul of the Snow
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Increases maximum health by 75 and gives immunity to сhilled debuff
+					'''
+			}
+
+			OceanS: {
+				DisplayName: The Soul of the Ocean
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Makes it possible to breathe underwater
+					'''
+			}
+
+			SkyS: {
+				DisplayName: The Soul of the Sky
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Gives the effect of a slow fall and accelerates movement
+					'''
+			}
+
+			UndergroundS: {
+				DisplayName: The Soul of the Underground
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Gives the effect of a night owl and accelerates mining speed
+					'''
+			}
+
+			CavernsS: {
+				DisplayName: The Soul of the Caverns
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Gives the effect of dangersence and shine
+					'''
+			}
+
+			TheCrimsonS: {
+				DisplayName: The Soul of the Crimson
+				Tooltip:
+					'''
+					[c/2b178f:A mysterious object, perhaps part of something bigger]
+					Gives immunity to bleeding and increases hp by 75, but reduces regeneration and protection
+					'''
+			}
+
+			BloodedSpore: {
+				DisplayName: Bloody Spores
+				Tooltip: Forces the monsters to relocate
+			}
+
+			InfectedSpore: {
+				DisplayName: Infected Spores
+				Tooltip: Forces the eaters to relocate
+			}
+
+			Leaf: {
+				DisplayName: Leaf
+				Tooltip: ""
+			}
+
+			Spike: {
+				DisplayName: Spike
+				Tooltip: ""
+			}
+
+			PoisonedCapsule: {
+				DisplayName: Poisoned Capsule
+				Tooltip: ""
+			}
+
+			PieceOfShell: {
+				DisplayName: A piece of shell
+				Tooltip: ""
+			}
+
+			Fur: {
+				DisplayName: A piece of fur
+				Tooltip: ""
+			}
+
+			CloudPiece: {
+				DisplayName: A piece of cloud
+				Tooltip: ""
+			}
+
+			Pebble: {
+				DisplayName: Pebble
+				Tooltip: ""
+			}
+
+			NaitmerStone: {
+				DisplayName: Naitmer's Stone
+				Tooltip: Holding this stone in your hands, you feel the movement of a thousand hungry spiders
+			}
+
+			SpiderCritterItem: {
+				DisplayName: Spider
+				Tooltip: Little friendly spider
+			}
+
+			BioshStone: {
+				DisplayName: Biosh's Stone
+				Tooltip: You feel that thousands of eyes are piercing you from the stone
+			}
+
+			Bread: {
+				DisplayName: Stone Bread
+				Tooltip: It smells like baking... Even though it's still a stone, you want to taste it
+			}
+
+			Bread2: {
+				DisplayName: Stone Bread
+				Tooltip: It smells like baking... Even though it's still a stone, you want to taste it
+			}
+
+			Bread3: {
+				DisplayName: Stone Bread
+				Tooltip: It smells like baking... Even though it's still a stone, you want to taste it
+			}
+
+			Bread4: {
+				DisplayName: Stone Bread
+				Tooltip: It smells like baking... Even though it's still a stone, you want to taste it
+			}
+
+			Bread5: {
+				DisplayName: Stone Bread
+				Tooltip: It smells like baking... Even though it's still a stone, you want to taste it
+			}
+		}
+
+		Tiles.RTable.MapEntry: Table for reconstruction
+		Header1: "[i:3061] Gameplay changes"
+		Header2: "[i:903] Auxiliary content"
+		Header3: "[i:25] Spawn NPC"
+		EatersRelocateStart: The eaters begin to migrate...
+		EatersRelocateEnd: The eaters stop migrate...
+		EatersRelocateSummoned: Something is raging in the depths of corruption
+		MonstersRelocateStart: The monsters begin to migrate...
+		MonstersRelocateEnd: The monsters stop migrate...
+		MonstersRelocateSummoned: Something is raging in the depths of crimson
+		ModsHelper: "[i:149]Mods Helper[i:149]:"
+		FTconflict: You are using Fargo Mutant Mod, when changing events (Halloween and Christmas), there may be problems with the seasons system
+		Spring: Spring is coming!
+		Summer: Summer is coming!
+		Autumn: Autumn is coming!
+		Winter: Winter is coming!
+		RainStarts: Rain clouds fills up the sky...
+		StormStarts: Thunderclouds fills up the sky and the wind is getting stronger...
+		StormRStarts: Thunderclouds fills up the sky...
+		StormWStarts: The wind is getting stronger...
+		ScoutPhoneInspect: Cracks are visible under the pink paint. It seems that this phone is very ancient...
+		RemadedPhoneInspect: It looks like these are the hidden technologies of this phone...
+		ConfigC: Changes accepted!
+		ConfigS: You have no rights to change ModConfig.
+		Elise: Elise
+		Lina: Lina
+		Xaranna: Xaranna
+		Lilith: Lilith
+		Conalin: Conalin
+		Sonda: Sonda
+		Evanaina: Evanaina
+		GSEntry1: I'm ready to help you for almost nothing!
+		GSEntry2: Don't get tangled up in bandages!
+		GSEntry3: It's so cold in here.
+		GSEntry4: I really want to make zombies depressed!
+		GSEntry5: I love spelunker glowstick. They make the ore shine!
+		GSEntry6: Do you like to improve tools? Make a table for reconstruction!
+		GSEntry7: Slimes are starting to piss me off, they're everywhere!
+		GSEntry8: I'm very lucky!
+		GSEntry9: You know, the Guide is a very nice guy, he can help you all the time!
+		GSEntry10: Can you get me something to eat? ... I forgot to tell you, then I'll sell it to you...
+		GSEntry11: Untie here and here... OH! Problem! Drink this quickly to survive. Phew... It seems to have passed...
+		GSEntry12: Uhm... You're not wearing bandages.
+		GSEntry13: I'm sorry, I didn't find anything for you.
+		GSEntry14: Untie here and here... Great! It worked!
+		GSEntry15: My drones will do everything possible to collect all the data as soon as possible. Maybe they'll find something for you! But we have to wait.
+		GSEntry16: Take it, take it, don't be shy! Thank you for sponsoring my researches, as you can see they have their fruits!
+		BNDeath1: Player
+		BNDeath2: unwrapped to death.
+		GSIMTIRED: I'm sorry, I'm tired, give me some time to rest.
+		GSLifeCrystal: I walked through the caves and found life crystals, then I heard a loud roar from below and came back in fear! But these are my life crystals, look for your own!
+		GSLifeFruit: I confess, I followed you into the jungle, and gathered some life fruits  there, mmmm... yummy!
+		GSSwap: Switch
+		GSShop1: Shop
+		GSShop2: Research Shop
+		GSHelp1: Unwrap
+		GSHelp2: Finds
+		ResearchOver: The exploration is over!
+		PinkP1: Can you say that again? I didn't hear that...
+		PinkP2: How am I doing? Great!
+		PinkP3: I will notify you if there is something interesting
+		PinkP4: The call was rejected... haha, just kidding!
+
+		Conditions: {
+			BioshName: Mods.TrueOverhaul.Conditions.BioshName
+			NaitmerName: Mods.TrueOverhaul.Conditions.NaitmerName
+		}
+	}
+}

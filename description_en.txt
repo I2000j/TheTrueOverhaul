@@ -1,0 +1,16 @@
+The True Overhaul updates terraria experience, makes it better and adding vanilla style content.
+
+This is an early alpha of this project, it may change a lot in the future! It can also break something, so use this mod at your own risk
+
+!!!It's NOT Terraria Overhaul!!!
+
+Content:
+-Fully customizable gameplay
+-Support for Journey Mode
+-New reconstruction system
+-New season system
+-Vanilla style invasions
+-28 Items
+-1 Tile
+-1 NPC
+-3 Buffs

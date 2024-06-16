@@ -1,0 +1,48 @@
+ModConfiguration: {
+	DisplayName: Mod Configuration
+
+	FriendlyM: {
+		Label: "[i:29] Friendly multiplayer"
+		Tooltip: Improved multiplayer, recommended for playthrough with other players and eliminating problems with multiplayer (Reload Required)
+	}
+
+	RecSystem: {
+		Label: "[i:509] Reconstruction system"
+		Tooltip: Reconstruction recipes and its system (Reload Required)
+	}
+
+	QoL: {
+		Label: "[i:2294] QoL Content"
+		Tooltip: New crafts, materials and other (Reload Required)
+	}
+
+	SSystem: {
+		Label: "[i:3753] Season system"
+		Tooltip: The game will change the seasons and something else... (Reload Required)
+	}
+
+	Relocating: {
+		Label: "[i:68] Can migration begin"
+		Tooltip: (By any means)
+	}
+
+	GirlScoutSpawn: {
+		Label: "[i:267] Can Girl Scout spawn?"
+		Tooltip: (Reload Not Required)
+	}
+
+	ResearchChanse: {
+		Label: "[i:3099] Duration of the research"
+		Tooltip: (The higher the number, the less chance that the research will end during the day and night shift)
+	}
+
+	MHelper: {
+		Label: "[i:149] Mods Helper"
+		Tooltip: Helps fix some mods conflict (Reload Required)
+	}
+
+	AnDay: {
+		Label: "[i:507] Notification of a new day [i:507]"
+		Tooltip: When a new day comes, you will be notified about it
+	}
+}
